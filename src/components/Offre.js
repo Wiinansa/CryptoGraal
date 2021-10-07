@@ -3,7 +3,7 @@ import './Offre.css';
 function Offre() {
     return(
         <div className="Title-offre">
-            <h2>Devenez détenteur de jetons et profitez de récompenses exclusives !</h2>
+            <h2>Devenez vite détenteur de jetons et profitez de récompenses exclusives !</h2>
             <div className="first">
                 <div className="block">
                 <h3>Lorem Ipsum</h3>
