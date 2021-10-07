@@ -1,0 +1,50 @@
+.Title-partners {
+  text-align: center;
+}
+
+.Title-partners h2 {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.Title-partners h2:after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -15px;
+  position: absolute;
+  background: #ffffff;
+}
+
+.conteneur {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-partners {
+  height: 100px;
+  padding: 80px;
+}
+
+
+
+@media screen and (max-width: 810px) {
+  .conteneur {
+    display: flex;
+    flex-direction: column;
+    padding-left: 43px;
+  }
+
+  .logo-partners {
+    padding: 20px;
+    width: 250px;
+    height: auto;
+  }
+}
