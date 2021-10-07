@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap');
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans Display', sans-serif;
+	background-color: #061121;
+}
+.Offres{
+
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.Cartes{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    max-width: 260px;
+    height: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 9px 8px 10px 4px rgba(11, 123, 242, 0.75);
+}
+.Cartes h1, h4, h3{
+	text-align: center;
+	margin: none;
+	font-weight: bold;
+	size: 40pt;
+}
+.Cartes ul{
+	border-bottom: 1px solid grey;
+}
+.Cartes .btn{
+	text-align: center;
+	background-color: #355788;
+	margin-top: 80px;
+	color: white;
+	border-radius:15px;
+}
