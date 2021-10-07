@@ -1,0 +1,52 @@
+header h2 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+header h2:after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    background: #ffffff;
+  }
+
+#emps {
+    display: flex;
+    justify-content: center;
+ }
+
+ .emp{
+     margin: 1em;
+     margin-right: 100px;
+     margin-left: 100px;
+ }
+
+ .member {
+    border-radius: 10em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 150px;
+    border-color: powderblue;
+}
+
+.emp figcaption {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 810px) {
+    #emps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+} 

@@ -23,23 +23,28 @@
   background: #ffffff;
 }
 
+.conteneur {
+  display: flex;
+  justify-content: center;
+}
+
 .logo-partners {
-  height: 30vmin;
-  pointer-events: none;
+  height: 100px;
+  padding: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+
+@media screen and (max-width: 810px) {
+  .conteneur {
+    display: flex;
+    flex-direction: column;
+    padding-left: 43px;
+  }
+
   .logo-partners {
-    animation: logo-partners-spin infinite 20s linear;
+    padding: 20px;
+    width: 250px;
+    height: auto;
   }
-}
-
-
-@keyframes logo-partners-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} 
