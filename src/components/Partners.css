@@ -1,0 +1,45 @@
+.Title-partners {
+  text-align: center;
+}
+
+.Title-partners h2 {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.Title-partners h2:after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -15px;
+  position: absolute;
+  background: #ffffff;
+}
+
+.logo-partners {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-partners {
+    animation: logo-partners-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes logo-partners-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
