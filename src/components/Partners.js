@@ -1,4 +1,3 @@
-import logo from '../logo.svg';
 import imagesCoinPayment from './images/coinpayment.png'
 import imagesCoinBase from './images/coinBasecommerce.png'
 import imagesCryptoPay from './images/crypto-com-pay-checkout-for-woocommerce.jpg'
