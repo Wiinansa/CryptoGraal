@@ -6,14 +6,14 @@ import IphoneTrade from './components/IphoneTrade';
 
 function App() {
   return (
-      <div>
-        <Partners />
-        <Offre/>
-        <IphoneInvest/>
-        <IphoneTrade/>
-        <Team/>
-      </div>
+    <div>
+      <Partners />
+      <Offre />
+      <IphoneInvest />
+      <IphoneTrade />
+      <Team />
+    </div>
   );
 }
 
-export default App; 
+export default App;

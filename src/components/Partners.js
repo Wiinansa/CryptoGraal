@@ -8,15 +8,15 @@ import './Partners.css';
 function Partners() {
   return (
     <div>
-        <div className="Title-partners">
-          <h2>Les partenaires</h2>
-        </div>
-        <div className="conteneur">
-          <img src={imagesCoinPayment} className="logo-partners" alt="logo-partners" />
-          <img src={imagesCoinBase} className="logo-partners" alt="logo-partners" />
-          <img src={imagesCryptoPay} className="logo-partners" alt="logo-partners" />
-          <img src={imagesBinancePay} className="logo-partners" alt="logo-partners" />
-        </div>
+      <div className="Title-partners">
+        <h2>Les partenaires</h2>
+      </div>
+      <div className="conteneur">
+        <img src={imagesCoinPayment} className="logo-partners" alt="logo-partners" />
+        <img src={imagesCoinBase} className="logo-partners" alt="logo-partners" />
+        <img src={imagesCryptoPay} className="logo-partners" alt="logo-partners" />
+        <img src={imagesBinancePay} className="logo-partners" alt="logo-partners" />
+      </div>
     </div>
   );
 }

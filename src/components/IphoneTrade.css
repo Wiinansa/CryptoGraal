@@ -68,6 +68,19 @@
         width: 40px;
         height: 40px;
     }
+
+    .wrapperTrade img {
+        -webkit-transform: none;
+        transform: none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .wrapperTrade img:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+    
     
     
     } 
