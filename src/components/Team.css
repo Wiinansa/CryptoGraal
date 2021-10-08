@@ -5,7 +5,8 @@ header h2 {
     font-size: 32px;
     font-weight: 500;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 200px;
 }
 
 header h2:after {
@@ -22,6 +23,7 @@ header h2:after {
 #emps {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
  }
 
  .emp{
