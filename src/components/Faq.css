@@ -1,0 +1,62 @@
+.faq {
+  background-color: rgb(244, 244, 244);
+  color: black;
+}
+
+.faq h1 {
+  padding-top: 20px;
+  color: #061121;
+}
+
+.button {
+  font-size: 16px;
+  background-color: rgb(244, 244, 244);;
+  color: #129DFF;
+  text-align: left;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.accordion_item {
+  font-size: 18px;
+  border-top: 1px solid #11557b;
+  text-align: start;
+}
+
+.accordion_item:last-child {
+  border-bottom: 1px solid #11557b;
+}
+
+.question {
+    list-style: none;
+    padding: 0;
+}
+
+.control {
+  font-size: 20px;
+  margin: 1px;
+}
+
+.answer {
+    padding: 15px;
+}
+
+/* activate toggle */
+
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
+
+.App-faq {
+    margin : 10px;
+  }

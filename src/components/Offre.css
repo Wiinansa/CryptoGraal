@@ -1,68 +1,112 @@
 .Title-offre {
-    text-align: center;
-  }
-  
-  .Title-offre h2 {
-    display: block;
-    text-align: center;
-    padding: 20px;
-    font-size: 32px;
-    font-weight: 500;
-    position: relative;
-    margin: 120px;
-  }
-  
-  .Title-offre h2:after {
-    content: "";
-    width: 30px;
-    height: 3px;
-    bottom: 5px;
-    left: 50%;
-    margin-left: -15px;
-    position: absolute;
-    background: #ffffff;
-  }
+  text-align: center;
+}
+
+.Title-offre h2 {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.Title-offre h2:after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -15px;
+  position: absolute;
+  background: #ffffff;
+}
 
 .first {
-    display: flex;
-    width: 900px;
-    margin: auto;
+  display: flex;
+  width: 900px;
+  margin: auto;
 }
 
 /*------------------------------BLOCK-----TEXTE-------------------------------------*/
 .second {
-    display: flex;
-    width: 900px;
-    margin: auto;
+  display: flex;
+  width: 900px;
+  margin: auto;
 }
 
 .block {
-    margin-left: 50px;
-    margin-bottom: 50px;
-    padding: 15px 30px;
-    box-shadow: 0px 0px 10px 1px rgba(160, 144, 144, 0.7);
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding: 15px 30px;
+  box-shadow: 9px 8px 10px 4px rgba(11, 123, 242, 0.75);
 }
 
 /*---------------------------------------BOUTTON------------------------------*/
 
 .btt-to-inscription {
-  background-color: transparent;
-  font-size: 12px;
-  margin-bottom: 50px;
-  padding: 10px 20px;
-  border-style: solid;
-  border-radius: 100px;
-  width: 300px;
-  cursor: pointer;
-  font-size: 20px;
-  letter-spacing: 0.02em;
+background-color: transparent;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 10px 20px;
+border-style: solid;
+border-radius: 100px;
+width: 300px;
+cursor: pointer;
+font-size: 20px;
+letter-spacing: 0.02em;
 }
 
 .btt-to-inscription:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+background-color: rgba(255, 255, 255, 0.1);
 }
 
 .btt-to-inscription a{
-  text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 }
+
+
+@media screen and (max-width: 812px) {
+
+.first {
+  display: flex;
+  padding-right: 45px;
+  width: 280px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.first .block {
+  font-size: 15px;
+}
+
+.second {
+display: flex;
+padding-right: 45px;
+width: 280px;
+height: auto;
+flex-wrap: wrap;
+}
+
+.second .block {
+  font-size: 15px;
+}
+
+.Title-offre h2 {
+display: flex;
+font-size: 40px;
+justify-content: center;
+margin-top: 120px;
+margin-bottom: 80px;
+}
+
+.btt-to-inscription {
+  font-size: 20px;
+  width: 260px;
+  margin-bottom: 200px;
+  }
+  
+} 

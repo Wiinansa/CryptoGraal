@@ -1,0 +1,44 @@
+.App-presentation {
+  display: block;
+  margin: 20px;
+  background-color: #061121;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}  
+
+.App-presentation h2 {
+    color: #129DFF;
+    font-size: 20px;
+}
+
+.half-content {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: start;
+  font-size: 17px;
+}
+
+.signup-button {
+  background-color: #061121;
+  border: 1px solid #129DFF;
+  border-radius: 5px;
+  color: #129DFF;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* .signup-button:hover {
+    background-color: ;
+} */
+
+.signup-button:hover,
+.signup-button:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}

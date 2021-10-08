@@ -9,7 +9,7 @@
   font-size: 32px;
   font-weight: 500;
   position: relative;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 
 .Title-partners h2:after {
@@ -23,23 +23,34 @@
   background: #ffffff;
 }
 
+.conteneur {
+  display: flex;
+  justify-content: center;
+}
+
 .logo-partners {
-  height: 30vmin;
-  pointer-events: none;
+  height: 130px;
+  padding: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+
+@media screen and (max-width: 810px) {
+  .conteneur {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
   .logo-partners {
-    animation: logo-partners-spin infinite 20s linear;
+    padding: 20px;
+    width: 200px;
+    height: auto;
   }
-}
 
-
-@keyframes logo-partners-spin {
-  from {
-    transform: rotate(0deg);
+  .Title-partners h2 {
+    font-size: 40px;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} 
