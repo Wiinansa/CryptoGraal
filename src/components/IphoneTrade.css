@@ -1,0 +1,86 @@
+.containerTrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTrade .slogantTrade .checkout {
+    display: flex;
+}
+
+.containerTrade .slogantTrade .checkout p{
+    padding-left: 10px;
+}
+
+
+.containerTrade h3 {
+    font-size: 30px;
+}
+
+.wrapperTrade {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 600px;
+}
+
+.wrapperTrade img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.wrapperTrade img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+@media screen and (max-width: 812px) {
+
+    .wrapperTrade {
+        width: 100px;
+        height: auto;
+        margin: auto;
+    }
+
+    .containerTrade {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-bottom: 200px;
+    }
+
+    .containerTrade .slogantTrade {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .containerTrade h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .containerTrade .slogantTrade .checkout img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .wrapperTrade img {
+        -webkit-transform: none;
+        transform: none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .wrapperTrade img:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+    
+    
+    
+    } 
