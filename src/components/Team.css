@@ -28,7 +28,17 @@ header h2:after {
      margin: 1em;
      margin-right: 100px;
      margin-left: 100px;
+     -webkit-transform: scale(1);
+     transform: scale(1);
+     -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
  }
+
+ .emp:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 
  .member {
     border-radius: 10em;
@@ -43,10 +53,19 @@ header h2:after {
 }
 
 
+
 @media screen and (max-width: 810px) {
     #emps {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
      }
+
+
+     header h2 {
+         font-size: 40px;
+    }
+
+    
+    
 } 

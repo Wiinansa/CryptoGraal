@@ -2,7 +2,13 @@
     display: flex;
     justify-content: center;
     margin: 100px 100px;
-    transition: transform 300ms;
-    transform: rotateX(7deg);
-    transform-origin:90% 90%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.wrapper:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }

@@ -12,19 +12,19 @@ function Team() {
             </header>
         <section id="emps">
             <figure class="emp">
-                <img src={imagesHakim} class="member boy" />
+                <img src={imagesHakim} class="member" />
                 <figcaption>Hakim</figcaption>
             </figure>
             <figure class="emp">
-                <img src={imagesAnass} class="member boy" />
+                <img src={imagesAnass} class="member" />
                 <figcaption>Anass</figcaption>
             </figure>
             <figure class="emp">
-                <img src={imagesEddine} class="member boy" />
+                <img src={imagesEddine} class="member" />
                 <figcaption>Alley-Eddine</figcaption>
             </figure>
             <figure class="emp">
-                <img src={imagesAissetou} class="member boy" />
+                <img src={imagesAissetou} class="member" />
                 <figcaption>Aîssetou</figcaption>
             </figure>
         </section>
