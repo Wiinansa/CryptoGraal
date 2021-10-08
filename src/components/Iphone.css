@@ -2,13 +2,16 @@
     display: flex;
     justify-content: center;
     margin: 100px 100px;
+}
+
+.wrapper img {
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-.wrapper:hover {
+.wrapper img:hover {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
