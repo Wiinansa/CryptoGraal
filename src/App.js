@@ -11,7 +11,7 @@ function App() {
         <Team/>
         <Iphone/>
       </div>
-  );
+  )
 }
 
 export default App;

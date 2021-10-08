@@ -4,12 +4,8 @@ import { Parallax } from 'react-parallax';
 
 function Iphone() {
     return (
-        <div>
-    <Parallax>
-        <div className="wrapper">
-            <img src={imagesIphone}/>
-        </div>
-    </Parallax>
+    <div className="wrapper">
+        <img src={imagesIphone}/>
     </div>
     )
 }
