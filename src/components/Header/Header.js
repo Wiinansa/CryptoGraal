@@ -1,5 +1,5 @@
 import './Header.css';
-import icon from '../menu.png';
+import icon from '../../assets/images/menu.png';
 
 function Header() {
 
@@ -12,13 +12,13 @@ function Header() {
         </label>
         <label class="logo">CryptoGraal</label>
         <ul>
-          <li><a class="active" href="#">Accueil</a></li>
+          <li><a class="active" href="/">Accueil</a></li>
           <li><a href="#">À propos</a></li>
           <li><a href="#">Prix</a></li>
           <li><a href="#">Équipe</a></li>
           <li><a href="#">Partenaires</a></li>
           <li><a href="#">FAQ</a></li>
-          <li><a href="#">Connexion</a></li>
+          <li><a href="/login">Connexion</a></li>
         </ul>
       </nav>
     </div>

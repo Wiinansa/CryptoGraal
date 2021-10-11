@@ -1,7 +1,7 @@
-import imagesHakim from './images/Hakim.png'
-import imagesAnass from './images/Anass.jpg'
-import imagesEddine from './images/Eddine.jpg'
-import imagesAissetou from './images/Aissetou.jpg'
+import imagesHakim from '../../assets/images/Hakim.png'
+import imagesAnass from '../../assets/images/Anass.jpg'
+import imagesEddine from '../../assets/images/Eddine.jpg'
+import imagesAissetou from '../../assets/images/Aissetou.jpg'
 import './Team.css'
 
 function Team() {

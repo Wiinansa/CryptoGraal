@@ -1,24 +1,45 @@
-import './App.css';
-import Presentation from './components/Presentation'
-import Faq from './components/Faq'
-import Header from './components/Header';
-import Partners from './components/Partners';
-import Offre from './components/Offre';
-import Login from "./components/Login";
-import Team from './components/Team';
-import IphoneInvest from './components/IphoneInvest';
-import IphoneTrade from './components/IphoneTrade';
-import OffreCrypto from './components/OffresCrypto.js';
+import Partners from './components/Partners/Partners';
+import Offre from './components/Offers/Offre';
+import Team from './components/Team/Team';
+import IphoneInvest from './components/Investment/IphoneInvest';
+import IphoneTrade from './components/Investment/IphoneTrade';
+import Header from "./components/Header/Header";
+import Faq from "./components/FAQ/Faq";
+import Login from "./components/Login/Login"
+import {
+    BrowserRouter as Router,
+    Switch as SwitchDom,
+    Route,
+    Link
+} from "react-router-dom";
+import Presentation from "./components/Presentation/Presentation";
 
 function App() {
-  return (
-      <div>
-          <Partners />
-          <Offre />
-          <IphoneInvest />
-          <IphoneTrade />
-          <Team />
-      </div>
-  );}
+    return (
+        <div>
+        <Router>
+            <div>
+                <Header />
+            </div>
+            <SwitchDom>
+                <Route path={"/login"}>
+                    <Login />
+                </Route>
+                <Route exact path={"/"}>
+                    <div className={"App"}>
+                    <Presentation />
+                    </div>
+            <Partners />
+            <Offre />
+            <IphoneInvest />
+            <IphoneTrade />
+            <Faq />
+            <Team />
+                </Route>
+            </SwitchDom>
+        </Router>
+</div>
+    );
+}
 
 export default App;

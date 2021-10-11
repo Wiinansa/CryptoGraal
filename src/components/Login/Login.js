@@ -17,7 +17,7 @@ export default function Login() {
 
 
     const loginAuth = async() => {
-        console.log("login3", login["email"]);
+        //console.log("login3", login["email"]);
         res();
     }
     console.log(watch("example"));

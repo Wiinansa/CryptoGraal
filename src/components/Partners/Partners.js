@@ -1,7 +1,7 @@
-import imagesCoinPayment from './images/coinpayment.png'
-import imagesCoinBase from './images/coinBasecommerce.png'
-import imagesCryptoPay from './images/crypto-com-pay-checkout-for-woocommerce.jpg'
-import imagesBinancePay from './images/binance-pay.png'
+import imagesCoinPayment from '../../assets/images/coinpayment.png'
+import imagesCoinBase from '../../assets/images/coinBasecommerce.png'
+import imagesCryptoPay from '../../assets/images/crypto-com-pay-checkout-for-woocommerce.jpg'
+import imagesBinancePay from '../../assets/images/binance-pay.png'
 import './Partners.css';
 
 function Partners() {

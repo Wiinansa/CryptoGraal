@@ -1,4 +1,4 @@
-import { faqs } from "../data";
+import { faqs } from "./data";
 import { useState } from "react";
 import FaqItems from "./FaqItems";
 import './Faq.css';

@@ -8,7 +8,7 @@ const User = require('./models/user')
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://dbuser:7c98fbEiKzCRe3w@cluster0.r5667.mongodb.net/databasetest?retryWrites=true&w=majority',
+mongoose.connect(process.env.REACT_APP_MONGO,
     { useNewUrlParser: true,
         useUnifiedTopology: true })
     .then(() => console.log('Connexion à MongoDB réussie !'))

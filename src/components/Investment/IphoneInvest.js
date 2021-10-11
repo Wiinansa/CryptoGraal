@@ -1,6 +1,6 @@
 import './IphoneInvest.css'
-import imagesIphone from './images/change-invest.png'
-import check from './images/check.png'
+import imagesIphone from '../../assets/images/change-invest.png'
+import check from '../../assets/images/check.png'
 
 function IphoneInvest() {
     return (
